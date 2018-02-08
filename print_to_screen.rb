@@ -1,12 +1,6 @@
-num=1
-100.times do
-	if num==5
-		puts "mined minds"
-	else
-		puts (num)
-	end
+counter = 100
 
-	
-	num+=1
-
+while counter >= 1 do
+	p counter
+	counter -= 1
 end
