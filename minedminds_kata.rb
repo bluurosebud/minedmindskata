@@ -1,7 +1,10 @@
-counter = 0
+num=1
 
-while counter <= 99 do
-	counter += 1
-	p counter
-	
+100.times do
+	if num==3
+		puts "mined"
+	else
+		puts(num)
+	end
+	num+=1
 end
