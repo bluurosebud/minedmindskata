@@ -1,10 +1,12 @@
 num=1
-  
-  100.times do
+
+100.times do
  	if (num % 5)===0
-  		puts "minds"
+ 		puts "minds"
   	else
   		puts(num)
- 	end
- 	num+=1
- end
+
+  	end
+	num+=1
+
+end 
