@@ -1,12 +1,14 @@
 num=1
 
-100.times do
- 	if (num % 5)===0
- 		puts "minds"
-  	else
-  		puts(num)
+100.times do                                                     
 
-  	end
-	num+=1
+        if (num % 3 == 0)                                                               
+                puts "mined minds"                                                            
+        elsif (num % 5 == 0)                                                            
+                puts "mined minds"
+        else
+        	puts (num)
 
-end 
+        end
+        num+=1                                                                        
+end           
