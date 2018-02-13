@@ -3,9 +3,9 @@ num=1
 100.times do                                                     
 
         if (num % 3 == 0)                                                               
-                puts "mined minds"                                                            
+                puts "mined"                                                            
         elsif (num % 5 == 0)                                                            
-                puts "mined minds"
+                puts "minds"
         else
         	puts (num)
 
